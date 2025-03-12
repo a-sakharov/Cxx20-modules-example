@@ -18,7 +18,7 @@ elseif("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
         message(FATAL_ERROR "MSVC version must be at least 19.0!")
     endif()
 else()
-    message(WARNING "You are using an unsupported compiler! Compilation has only been tested with Clang and GCC.")
+    message(WARNING "You are using an unsupported compiler! Compilation has only been tested with MSVC, Clang and GCC.")
 endif()
 
 #################### 2. project setup
